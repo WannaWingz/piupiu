@@ -20,7 +20,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.8'
+        python-version: '3.9'
 
     - name: Create and start virtual environment
       run: |
@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'vASBot'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_a101172da8ae496f86d53949a1e18c15 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_9749356b5d8b43979cdf67d030aee829 }}
