@@ -1,3 +1,4 @@
+python -m pip install --upgrade pip
 botbuilder-integration-aiohttp>=4.13.0
 botbuilder-dialogs>=4.13.0
 requests_oauthlib
